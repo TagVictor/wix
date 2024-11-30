@@ -9,11 +9,11 @@ body {
 }  
 
 header {  
-    background-color: #cececee2;  
+    background-color: #212020e2;  
     color: white;  
     padding: 1em;  
     text-align: center;  
-    box-shadow: 1px 2px 5px #0000009c;
+    box-shadow: 1px 2px 5px #000000b7;
 }  
 header> destaquee{
     color: #000000;
@@ -74,7 +74,7 @@ main {
     margin: 20px auto; 
     padding: 20px; 
     background-color: #ffffff; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); } 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.798); } 
 @media (max-width: 1200px) { 
     main { width: 85%; 
 } 
@@ -89,7 +89,7 @@ main {
     }
 
 h1{
-    text-shadow: 1px 1px 2px #4516aa;
+    text-shadow: 1px 1px 2px #4516aa9c;
     font-size: 40.8px;
 
 }
@@ -100,11 +100,11 @@ h2{
 }
 
 h3{
-    text-shadow: 1px 1px 2px #16aa3d;
+    text-shadow: 1px 1px 2px #16aa3da0;
     font-size: 40.5px;
 }
 img.imagem-responsiva {
-    width: 60%;
+    width: 70%;
     height: auto;
     align-items: center;
     text-align: center;
