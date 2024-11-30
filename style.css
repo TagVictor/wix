@@ -12,9 +12,9 @@ header {
     background-color: #212020e2; 
     color: white;  
     width: 100%;
-    margin: auto;
     text-align: center;  
     box-shadow: 1px 3px 5px #000000b7;
+
 }  
 header> destaquee{
     color: #000000;
@@ -82,10 +82,20 @@ main {
 @media (max-width: 992px) { 
     main { width: 90%; } 
 } 
+
 @media (max-width: 768px) { 
     main { width: 95%; } } 
-    @media (max-width: 576px) { 
-        main { width: 100%; padding: 10px; } 
+
+@media (max-width: 576px) { 
+     main { width: 100%; padding: 10px; } 
+    }
+
+    @media (max-width: 450px) { 
+        main { width: 94%; padding: 10px; } 
+       }
+
+@media (max-width: 360px) { 
+    main { width: 93%; padding: 10px; } 
     }
 
 h1{
@@ -104,10 +114,11 @@ h3{
     font-size: 40.5px;
 }
 img.imagem-responsiva {
-    width: 70%;
+    max-width: 50%;
     height: auto;
     align-items: center;
     text-align: center;
+    min-width: 270px;
 }
  
 p{
@@ -157,7 +168,7 @@ footer{
 .compartilhe > ul > li > a { 
     width: 80%; 
     margin: 20px auto; 
-    padding: 10px; 
+    padding: 20px; 
     
     background-color: #ffffff; 
 } 
